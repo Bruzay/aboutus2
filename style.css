@@ -1,4 +1,4 @@
-@import url('https://fonts.googleapis.com/css2?family=Mulish:wght@200&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Mulish:wght@500&display=swap');
 *{
     padding: 0;
     margin: 0;
@@ -121,6 +121,7 @@
     margin-top: 458px;  
     color: #a5a5b3;
     top: 12px;
+    font-family: 'Mulish', sans-serif;
 }
 .list{
     position: absolute;
@@ -1473,7 +1474,9 @@ top: 2068px;
     }        
 }
 
-
+.down2{
+    display: none;
+}
 .hrdlogo{
     position: relative;
     left: 72px;
@@ -1583,14 +1586,14 @@ nav {
 }
 nav .menu {
     position: absolute;
-    top: 9vh;
+    top: 10vh;
     min-width: 100%;
     background: rgba(15, 20, 35, 0.99);
     text-align: center;
     display: none;
     padding: 0;
     justify-content: center;
-    height: 220px;
+    height: 326px;
 }
 
 nav .menu li {
@@ -1598,6 +1601,7 @@ nav .menu li {
 }
 
 nav .menu li a {
+    left: 1px;
     top: -1px;
     display: block;
     padding: 20px;
@@ -1621,7 +1625,7 @@ nav li a:hover{
     top: 12px;
     /* top: 50px; */
     /* top: 42px; */
-    /* left: 12px; */
+    left: -92px;
 }
 
 .menu-icon span {
@@ -1670,6 +1674,7 @@ nav li a:hover{
 
 .menu-btn {
     display: none;
+    
 }
 
 .menu-btn:checked ~ .menu{
@@ -1686,6 +1691,12 @@ nav .btn {
     top: 263px;
     left: -270px;
 }
+.down2{
+    display: block;
+    position: relative;
+    top: -13px;
+    left: 135px;
+}
 }
 
 @media only screen and (max-width: 400px) {
@@ -1697,7 +1708,27 @@ nav img {
     height: 35px;
     min-height: 25px;
 }
+.menu-icon {
+    cursor: pointer;
+    position: relative;
+    padding: 28px 20px;
+    user-select: none;
+    float: right;
+    top: 12px;
+    /* top: 50px; */
+    /* top: 42px; */
+    left: -2px;
+}
 
+.down2{
+    display: block;
+    position: relative;
+    top: -13px;
+    left: 85px;
+}
+.gettoknow{
+    left: -1px;
+}
 }
 
 
